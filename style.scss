@@ -1,0 +1,89 @@
+// seletor{propriedade:valor;}
+// comentario de apenas uma linha;
+/*
+comentario de varias linhas
+*/
+
+// o * é o seletor global
+
+*{
+    margin: 0;
+    // espaçamento externo das tags
+    padding: 0;
+    // espaçamento interno das tags
+    box-sizing: border-box;
+    // faz o calculo correto dos tamanhos dos elementos
+}
+
+body {
+    font-family:"Montserrat", sans-serif;
+    background-color: red;
+}
+
+header {
+    background-color: rgb(3, 3, 113);
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    h1{
+        text-align: center;
+        color: red;
+    }
+}
+
+a {
+    text-decoration: none;
+    // retirei o sublinhado da tag a
+    color: aliceblue;
+    padding: 5px;
+}
+
+main {
+    background-color: red;
+    .banner {
+        background-image:url("https://static.vecteezy.com/ti/vetor-gratis/p1/8146061-cinema-filme-horizontal-banner-hall-cartoon-style-vetor.jpg");
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+// tag - seletor
+.linha1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+
+.linha2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+   img {
+        width: 50%;
+    }
+    h2 {
+        font-weight: 800;
+    }
+}
+// .classe - seletor
+.Titulo{
+    color: red;
+    font-family: "Gravitas One", serif;
+    font-size: 3rem;
+}
+// #id - seletor 
+.btn1 {
+    background-color: burlywood 
+}
