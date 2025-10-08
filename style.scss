@@ -55,16 +55,18 @@ main {
 }
 
 // tag - seletor
-.linha1 {
+#linha1 {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     text-align: center;
     padding: 20px;
 }
 
-.linha2 {
+#linha2 {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     text-align: center;
     padding: 20px;
 }
